@@ -15,11 +15,11 @@
         <div class="container">
             <div class="form-group">
                 <label for="firstname">First Name</label>
-                <input type="text" class="form-control" name="fname" id="firstname" placeholder="first name">
+                <input type="text" class="form-control" name="first_name" id="firstname" placeholder="first name">
               </div>
               <div class="form-group">
                 <label for="lastname">Last Name</label>
-                <input type="text" class="form-control" name="lname" id="lastname" placeholder="last name">
+                <input type="text" class="form-control" name="last_name" id="lastname" placeholder="last name">
               </div>
             <div class="form-group">
                 <label for="email">Email address</label>
@@ -29,7 +29,7 @@
 
               <div class="form-group">
                 <label for="gate-no">Gate select</label>
-                <select class="form-control" id="gate-no" name="gate-no">
+                <select class="form-control" id="gate-no" name="gate_id">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -43,6 +43,7 @@
               </div>
               <br>
               <button type="submit" class="btn btn-primary">Submit</button>
+              {{message}}
         </div>
         </form>
 
